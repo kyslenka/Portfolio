@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <title>Olena Kysla-Gavryliv</title>
+
+</head>
+
+<body>
+
+    <nav id="top-nav">
+        <div class="menu-btn" aria-label="menu" onclick="toggleMenu()"><i alt="hamburger menu icon" class="icon-top-left ion-ios-menu"></i></div>
+        <div class="titles">
+            <div class="top-title">Olena Kysla-Gavryliv</div>
+            <div class="top-subtitle">Front-End Web Developer</div>
+        </div>
+        <div><i class="icon-top-right ion-ios-menu"></i></div>
+    </nav>
+
+    <nav class="toc" id="toc">
+        <a href="#top"><img src="./Resources/profile-logo.png" onclick="toggleMenu()" alt="OK logo" class="logo"></a>
+        <side-nav>
+            <ul class="side-nav">
+                <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact Me</a></li>
+            </ul>
+        </side-nav>
+    </nav>
+
+    <div class="main" id="main-content">
+
+        <section class="section-splash">
+            <div class="container">
+                <a name="about"></a>
+                <div class="headshot">
+                    <img class="profile-photo" src="./Resources/profile_photo.jpg" alt="Headshot">
+                </div>
+                <div class="about center profile">
+                    <h1 class="header">About Me</h1>
+                    <p class="long-copy">My knowledge of modern web development includes HTML, CSS, ES6 JavaScript, React and Redux front-end libraries as well as Node.js and Express on the back end.<br/>In my current position as a web integrator I work in WordPress and have
+                        a solid knowledge of the SEO best practices but my true passion is building user-friendly, interactive and visually pleasing web applications by using my coding skills.</p>
+                </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="section-experience">
+            <div class="center">
+                <a name="experience">
+                    <h1>Experience</h1>
+                </a>
+            </div>
+
+            <div>
+                <div class="experience center">
+                    <div class="web-card">
+                        <div>
+                            <div class="web-card-header">
+                                <img class="experience-logo" src="./Resources/2020-logo.png" alt="2020 logo">
+                                <div>
+                                    <h3>2020 Technologies</h3>
+                                </div>
+                            </div>
+
+                            <div class="positions">
+                                <p><b>Web Integrator</b></p>
+                                <p><span>(Feb 2020&ndash;present)</span></p>
+                                <ul>
+                                    <li>Create the layout and build responsive web pages in the CMS (WordPress)</li>
+                                    <li>Optimize the code and site performance, as well as compliance with accessibility and SEO best practices</li>
+                                    <li>Manage corporate website infrastructure (system updates, site auditing, etc.)</li>
+                                    <li>Build the email templates by using SalesForce Marketing Cloud</li>
+                                    <li>Test the functionality of web pages and emails in different browsers/platforms</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div class="web-card-header">
+                                    <img class="experience-logo" src="./Resources/keywords-studios-logo.png" alt="Keywords logo">
+                                    <div>
+                                        <h3>Keywords Studios</h3>
+                                    </div>
+                                </div>
+
+                                <div class="positions">
+                                    <p><b>Quality Assurance Tester</b></p>
+                                    <p><span>(Feb 2018&ndash;Feb 2020)</span></p>
+                                    <ul>
+                                        <li>Provided UI/UX, functional and performance testing</li>
+                                        <li>Created QA reports and filled bug tickets</li>
+                                        <li>Provided cross platform testing (PC, Android, iOS) </li>
+                                        <li>Performed localization testing and translation quality review</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-skills">
+            <div>
+                <a name="skills">
+                    <h1>Skills</h1>
+                </a>
+            </div>
+            <div class="skills-figures center">
+                <figure>
+                    <img alt="HTML 5 logo" src="https://img.icons8.com/color/96/000000/html-5.png">
+                    <figcaption>HTML 5</figcaption>
+                </figure>
+                <figure>
+                    <img alt="CSS 3 logo" src="https://img.icons8.com/color/96/000000/css3.png">
+                    <figcaption>CSS 3</figcaption>
+                </figure>
+                <figure>
+                    <img alt="JavaScript logo" src="https://img.icons8.com/color/96/000000/javascript.png">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure>
+                    <img alt="React logo" src="./Resources/react-logo.png">
+                    <figcaption>React</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Redux logo" src="./Resources/redux-logo.png">
+                    <figcaption>Redux</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Combined Express and Node.js logo" src="./Resources/express-nodejs-logo.jpg">
+                    <figcaption>Express and Node.js</figcaption>
+                </figure>
+                <figure>
+                    <img alt="WordPress logo" src="./Resources/wordpress-logo.png">
+                    <figcaption>WordPress</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Photoshop logo" src="./Resources/photoshop-logo.png">
+                    <figcaption>Adobe Photoshop</figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+        <section class="section-education">
+            <div class="center">
+                <a name="education">
+                    <h1>Education</h1>
+                </a>
+            </div>
+
+            <div class="education-webdev">
+                <div class="education center">
+                    <div>
+                        <div class="web-card">
+                            <div>
+                                <div class="web-card-header">
+                                    <img class="education-logo" src="./Resources/concordia-logo.png" alt="Concordia University logo">
+                                    <div>
+                                        <h2>Diploma, Front-End Web Development</h2>
+                                    </div>
+                                </div>
+                                <p><span>Concordia University</span></p>
+                                <ul>
+                                    <li>HTML, CSS and responsive web design</li>
+                                    <li>JavaScript Fundamentals</li>
+                                    <li>Object Oriented Programming</li>
+                                    <li>React and Redux</li>
+                                    <li>Node.js and Express Framework</li>
+                                    <li>Git/GitHub</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education center">
+                    <div>
+                        <div class="web-card-header">
+                            <div>
+                                <i class="icon-big ion-ios-school"></i>
+                            </div>
+                            &nbsp; &nbsp;
+                            <div>
+                                <h2>Web Development Courses</h2>
+                            </div>
+                        </div>
+                        <div class="web-card">
+                            <div>
+                                <ul>
+                                    <li>Front-End Web Development with React (The Hong Kong University of Science and Technology)</li>
+                                    <li>SEO Training Masterclass 2021 (Udemy)</li>
+                                    <li>ES6 for Everyone (Wes Bos)</li>
+                                    <li>MongoDB Basics (MondoDB)</li>
+                                    <li>Ultimate Web Designer and Web Developer Course (Udemy)</li>
+                                    <li>Introduction to UI Design (Coursera)</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-webdev">
+                <div class="education center">
+                    <div>
+                        <div class="web-card-header">
+                            <img class="education-logo" src="./Resources/kyiv-mohyla-academy-logo.png" alt="Kyiv-Mohyla Academy">
+                            <div>
+                                <h2>MA/BA, Linguistics and Literature</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-projects">
+            <a name="projects">
+                <h1>Projects</h1>
+            </a>
+            <div class="projects center">
+                <div class="app">
+                    <a class="app-link" href="https://js-css-clock.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img class="thumbnail" src="./Resources/clock.jpg" alt="Clock">
+                    </a>
+                    <h3>CSS + JS Clock</h3>
+                </div>
+                <div class="app">
+                    <a class="app-link" href="https://piano-keyboards.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img class="thumbnail" src="./Resources/piano.jpg" alt="Piano">
+                    </a>
+                    <h3>JavaScript Drum Kit</h3>
+                </div>
+                <div class="app">
+                    <iframe class="thumbnail" width="300" height="180" src="https://www.youtube.com/embed/dKtloRLDGU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>The Antique Marketplace</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-form">
+            <div>
+                <a name="contact">
+                    <h1>Contact Me</h1>
+                </a>
+                <div class="center">
+                    <ul class="social-links">
+                        <li>
+                            <a aria-label="Visit Olena's LinkedIn page." href="https://www.linkedin.com/in/olenakyslagavryliv/" target="_blank">
+                                <i alt="LinkedIn icon" class="icon-big ion-logo-linkedin">
+								</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a aria-label="Visit Olena's GitHub profile." href="https://github.com/kyslenka" target="_blank">
+                                <i alt="GitHub icon" class="icon-big ion-logo-github">
+								</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a aria-label="Send Olena an email." href="mailto:helen.kysla@gmail.com" target="_top">
+                                <i alt="Email icon" class="icon-big ion-ios-send">
+								</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
